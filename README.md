@@ -12,7 +12,8 @@ Du an nay duoc tao ra de thuc hanh cac kien thuc co ban ve State trong React.
 1. Counter: Ung dung dem so don gian (Tang/Giam).
 2. Form Input: Nhap lieu va hien thi gia tri ngay lap tuc.
 3. Tính chu vi và diện tích hình chữ nhật
-4. Toggle: Chuc nang an/hien noi dung.
+4. Làm bài màu: click button vào màu nào ra màu đó
+5. Toggle: Chuc nang an/hien noi dung.
 
 ## Huong dan chay du an
 1. Cai dat cac goi phu thuoc:

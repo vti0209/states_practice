@@ -19,24 +19,24 @@ export function RectangleForm() {
 
     return (
         <div>
-            <h2>Rectangle Calculator</h2>
+            <h2>Tính chu vi và diện tích hình chữ nhật 2</h2>
             <input
                 type="number"
                 name="length"
                 value={rectangle.length}
                 onChange={handleChange}
                 placeholder="Length"
-            />  
+            />  <br /><br />
             <input
                 type="number"
                 name="width"
                 value={rectangle.width}
                 onChange={handleChange}
                 placeholder="Width"
-            />
+            /> <br /><br />
             <button onClick={calculate}>Calculate</button>
-            <p>Perimeter: {result.perimeter}</p>    
-            <p>Area: {result.area}</p>
+            <p>Chu vi: {result.perimeter}</p>    
+            <p>Diện tích: {result.area}</p>
         </div>
     );
 }

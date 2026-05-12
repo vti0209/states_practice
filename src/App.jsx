@@ -1,6 +1,7 @@
 import Counter from './components/counter'
 import {Form} from './components/FormInput'
 import {Form2} from './components/FormInput'
+import {RectangleForm} from './components/RectangleForm'
 import './App.css'
 
 function App() {
@@ -11,7 +12,10 @@ function App() {
       <Form />
        <br />
       <Form2 />
+      <br />
+      <RectangleForm />
     </div>
+
   )
 }
 

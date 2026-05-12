@@ -1,16 +1,23 @@
-# React + Vite
+# React State Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Du an nay duoc tao ra de thuc hanh cac kien thuc co ban ve State trong React.
 
-Currently, two official plugins are available:
+## Muc tieu hoc tap
+- Cach su dung Hook useState de quan ly du lieu trong Component.
+- Xu ly su kien (events) va cap nhat trang thai ung dung.
+- Thuc hanh rang buoc du lieu hai chieu (Two-way binding) tren Form.
+- Hieu co che re-render cua React khi State thay doi.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Cac bai tap thuc hien
+1. Counter: Ung dung dem so don gian (Tang/Giam).
+2. Form Input: Nhap lieu va hien thi gia tri ngay lap tuc.
+3. Toggle: Chuc nang an/hien noi dung.
 
-## React Compiler
+## Huong dan chay du an
+1. Cai dat cac goi phu thuoc:
+   npm install
+2. Khoi chay moi truong phat trien:
+   npm run dev
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Ghi chu
+Luon nho rang khong duoc thay doi truc tiep bien state ma phai thong qua ham setter duoc cung cap boi useState.
